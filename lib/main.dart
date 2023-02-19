@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:gpdi_jateng/feature/user/page/home/home_page.dart';
+import 'package:gpdi_jateng/feature/user/page/app.dart';
 
 import 'config/theme.dart';
 
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomePage(),
+      home: const App(),
     );
   }
 }

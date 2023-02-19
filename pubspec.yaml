@@ -37,6 +37,9 @@ dependencies:
   intl: ^0.18.0
   google_fonts: ^4.0.3
   carousel_slider: ^4.2.1
+  path_provider: ^2.0.12
+  http: ^0.13.5
+  syncfusion_flutter_pdfviewer: ^20.4.50
 
 dev_dependencies:
   flutter_test:

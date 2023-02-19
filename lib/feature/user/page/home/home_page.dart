@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gpdi_jateng/config/app_asset.dart';
 import 'package:gpdi_jateng/config/theme.dart';
+import 'package:gpdi_jateng/feature/user/page/home/artikel/artikel.dart';
 import 'package:gpdi_jateng/feature/user/widget/carousel_banner.dart';
 
 class HomePage extends StatelessWidget {
@@ -31,9 +32,17 @@ class Menus extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Image.asset(
-                AppAsset.icartikel,
-                height: 90,
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const ArtikelPage()),
+                  );
+                },
+                child: Image.asset(
+                  AppAsset.icartikel,
+                  height: 90,
+                ),
               ),
               Image.asset(
                 AppAsset.icberita,
