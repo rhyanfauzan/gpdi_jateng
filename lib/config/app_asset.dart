@@ -3,6 +3,7 @@ class AppAsset {
   static const logobg = 'assets/logobg.png';
   static const avatar = 'assets/avatar.png';
   static const banner1 = 'assets/banner1.png';
+  static const banner2 = 'assets/banner2.jpg';
   static const icartikel = 'assets/ic_artikel.png';
   static const icberita = 'assets/ic_berita.png';
   static const icebook = 'assets/ic_ebook.png';

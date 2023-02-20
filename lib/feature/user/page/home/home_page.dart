@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gpdi_jateng/config/app_asset.dart';
 import 'package:gpdi_jateng/config/theme.dart';
-import 'package:gpdi_jateng/feature/user/page/home/artikel/artikel.dart';
 import 'package:gpdi_jateng/feature/user/widget/carousel_banner.dart';
+
+import 'artikel/artikels_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -36,7 +37,8 @@ class Menus extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const ArtikelPage()),
+                    MaterialPageRoute(
+                        builder: (context) => const ArtikelsPage()),
                   );
                 },
                 child: Image.asset(
